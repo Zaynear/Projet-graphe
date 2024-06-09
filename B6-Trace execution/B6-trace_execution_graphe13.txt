@@ -1,0 +1,224 @@
+C:\Users\zhuxi\.jdks\openjdk-16.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2\lib\idea_rt.jar=65093:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\zhuxi\IdeaProjects\Projet_Graphe\out\production\Projet_Graphe com.company.B6_Main
+Choisir le numéro du graphe :
+13
+tableau d'adjacence d'origine
+0.0		0.0		1.0		2.0		3.0		4.0		5.0		6.0		7.0		
+0.0		0.0		0.0		1.0		1.0		0.0		0.0		0.0		0.0		
+1.0		1.0		0.0		0.0		0.0		1.0		0.0		0.0		0.0		
+2.0		0.0		0.0		0.0		1.0		0.0		0.0		0.0		0.0		
+3.0		0.0		0.0		1.0		0.0		1.0		0.0		0.0		0.0		
+4.0		0.0		1.0		1.0		0.0		0.0		0.0		0.0		0.0		
+5.0		0.0		0.0		0.0		0.0		0.0		0.0		1.0		0.0		
+6.0		0.0		0.0		0.0		0.0		0.0		1.0		0.0		1.0		
+7.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0		
+
+tableau de couts d'origine
+0.0		0.0		1.0		2.0		3.0		4.0		5.0		6.0		7.0		
+0.0		0.0		0.0		2.0		1.0		0.0		0.0		0.0		0.0		
+1.0		1.0		0.0		0.0		0.0		1.0		0.0		0.0		0.0		
+2.0		0.0		0.0		0.0		-2.0		0.0		0.0		0.0		0.0		
+3.0		0.0		0.0		7.0		0.0		4.0		0.0		0.0		0.0		
+4.0		0.0		3.0		-1.0		0.0		0.0		0.0		0.0		0.0		
+5.0		0.0		0.0		0.0		0.0		0.0		0.0		2.0		0.0		
+6.0		0.0		0.0		0.0		0.0		0.0		-2.0		0.0		-2.0		
+7.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0		0.0		
+
+Matrice L d'origine
+0.0		Infinity	2.0		1.0		Infinity	Infinity	Infinity	Infinity	
+1.0		0.0		Infinity	Infinity	1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	0.0		-2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	7.0		0.0		4.0		Infinity	Infinity	Infinity	
+Infinity	3.0		-1.0		Infinity	0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P d'origine
+0.0		Infinity	0.0		0.0		Infinity	Infinity	Infinity	Infinity	
+1.0		1.0		Infinity	Infinity	1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	2.0		2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	3.0		3.0		3.0		Infinity	Infinity	Infinity	
+Infinity	4.0		4.0		Infinity	4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 0
+0.0		Infinity	2.0		1.0		Infinity	Infinity	Infinity	Infinity	
+1.0		0.0		3.0		2.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	0.0		-2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	7.0		0.0		4.0		Infinity	Infinity	Infinity	
+Infinity	3.0		-1.0		Infinity	0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 0
+0.0		Infinity	0.0		0.0		Infinity	Infinity	Infinity	Infinity	
+1.0		1.0		0.0		0.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	2.0		2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	3.0		3.0		3.0		Infinity	Infinity	Infinity	
+Infinity	4.0		4.0		Infinity	4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 1
+0.0		Infinity	2.0		1.0		Infinity	Infinity	Infinity	Infinity	
+1.0		0.0		3.0		2.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	0.0		-2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	7.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		5.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 1
+0.0		Infinity	0.0		0.0		Infinity	Infinity	Infinity	Infinity	
+1.0		1.0		0.0		0.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	2.0		2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	3.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		0.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 2
+0.0		Infinity	2.0		0.0		Infinity	Infinity	Infinity	Infinity	
+1.0		0.0		3.0		1.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	0.0		-2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	7.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 2
+0.0		Infinity	0.0		2.0		Infinity	Infinity	Infinity	Infinity	
+1.0		1.0		0.0		2.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	2.0		2.0		Infinity	Infinity	Infinity	Infinity	
+Infinity	Infinity	3.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 3
+0.0		Infinity	2.0		0.0		4.0		Infinity	Infinity	Infinity	
+1.0		0.0		3.0		1.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	0.0		-2.0		2.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	7.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 3
+0.0		Infinity	0.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		1.0		0.0		2.0		1.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	2.0		2.0		3.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	3.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 4
+0.0		7.0		2.0		0.0		4.0		Infinity	Infinity	Infinity	
+1.0		0.0		0.0		-2.0		1.0		Infinity	Infinity	Infinity	
+6.0		5.0		0.0		-2.0		2.0		Infinity	Infinity	Infinity	
+8.0		7.0		3.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 4
+0.0		4.0		0.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		1.0		4.0		2.0		1.0		Infinity	Infinity	Infinity	
+1.0		4.0		2.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 5
+0.0		7.0		2.0		0.0		4.0		Infinity	Infinity	Infinity	
+1.0		0.0		0.0		-2.0		1.0		Infinity	Infinity	Infinity	
+6.0		5.0		0.0		-2.0		2.0		Infinity	Infinity	Infinity	
+8.0		7.0		3.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 5
+0.0		4.0		0.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		1.0		4.0		2.0		1.0		Infinity	Infinity	Infinity	
+1.0		4.0		2.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 6
+0.0		7.0		2.0		0.0		4.0		Infinity	Infinity	Infinity	
+1.0		0.0		0.0		-2.0		1.0		Infinity	Infinity	Infinity	
+6.0		5.0		0.0		-2.0		2.0		Infinity	Infinity	Infinity	
+8.0		7.0		3.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		0.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 6
+0.0		4.0		0.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		1.0		4.0		2.0		1.0		Infinity	Infinity	Infinity	
+1.0		4.0		2.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Matrice L de k = 7
+0.0		7.0		2.0		0.0		4.0		Infinity	Infinity	Infinity	
+1.0		0.0		0.0		-2.0		1.0		Infinity	Infinity	Infinity	
+6.0		5.0		0.0		-2.0		2.0		Infinity	Infinity	Infinity	
+8.0		7.0		3.0		0.0		4.0		Infinity	Infinity	Infinity	
+4.0		3.0		-1.0		-3.0		0.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	0.0		2.0		0.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	-2.0		0.0		-2.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 7
+0.0		4.0		0.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		1.0		4.0		2.0		1.0		Infinity	Infinity	Infinity	
+1.0		4.0		2.0		2.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		3.0		3.0		Infinity	Infinity	Infinity	
+1.0		4.0		4.0		2.0		4.0		Infinity	Infinity	Infinity	
+Infinity	Infinity	Infinity	Infinity	Infinity	5.0		5.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	6.0		6.0		6.0		
+Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	Infinity	7.0		
+
+Il n'y a pas de circuit absorbant
+Sommet de départ : 
+0
+Sommet d'arrivee : 
+4
+Le chemin est : ( 0.0 3.0 4.0 )
+Appuyez sur n pour arrêter ou n'importe quel autre touche pour continuer
+o
+Sommet de départ : 
+2
+Sommet d'arrivee : 
+5
+Le chemin n'existe pas
+Appuyez sur n pour arrêter ou n'importe quel autre touche pour continuer
+n
+Appuyez sur n pour arrêter ou n'importe quel autre touche pour continuer
+n
+
+Process finished with exit code 0

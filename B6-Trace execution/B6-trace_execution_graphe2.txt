@@ -1,0 +1,89 @@
+C:\Users\zhuxi\.jdks\openjdk-16.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2\lib\idea_rt.jar=65010:C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2021.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\zhuxi\IdeaProjects\Projet_Graphe\out\production\Projet_Graphe com.company.B6_Main
+Choisir le numéro du graphe :
+2
+tableau d'adjacence d'origine
+0.0		0.0		1.0		2.0		3.0		
+0.0		0.0		1.0		1.0		0.0		
+1.0		0.0		0.0		1.0		1.0		
+2.0		0.0		0.0		0.0		1.0		
+3.0		0.0		0.0		0.0		0.0		
+
+tableau de couts d'origine
+0.0		0.0		1.0		2.0		3.0		
+0.0		0.0		1.0		5.0		0.0		
+1.0		0.0		0.0		-3.0		5.0		
+2.0		0.0		0.0		0.0		2.0		
+3.0		0.0		0.0		0.0		0.0		
+
+Matrice L d'origine
+0.0		1.0		5.0		Infinity	
+Infinity	0.0		-3.0		5.0		
+Infinity	Infinity	0.0		2.0		
+Infinity	Infinity	Infinity	0.0		
+
+Matrice P d'origine
+0.0		0.0		0.0		Infinity	
+Infinity	1.0		1.0		1.0		
+Infinity	Infinity	2.0		2.0		
+Infinity	Infinity	Infinity	3.0		
+
+Matrice L de k = 0
+0.0		1.0		5.0		Infinity	
+Infinity	0.0		-3.0		5.0		
+Infinity	Infinity	0.0		2.0		
+Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 0
+0.0		0.0		0.0		Infinity	
+Infinity	1.0		1.0		1.0		
+Infinity	Infinity	2.0		2.0		
+Infinity	Infinity	Infinity	3.0		
+
+Matrice L de k = 1
+0.0		1.0		-2.0		6.0		
+Infinity	0.0		-3.0		5.0		
+Infinity	Infinity	0.0		2.0		
+Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 1
+0.0		0.0		1.0		1.0		
+Infinity	1.0		1.0		1.0		
+Infinity	Infinity	2.0		2.0		
+Infinity	Infinity	Infinity	3.0		
+
+Matrice L de k = 2
+0.0		1.0		-2.0		0.0		
+Infinity	0.0		-3.0		-1.0		
+Infinity	Infinity	0.0		2.0		
+Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 2
+0.0		0.0		1.0		2.0		
+Infinity	1.0		1.0		2.0		
+Infinity	Infinity	2.0		2.0		
+Infinity	Infinity	Infinity	3.0		
+
+Matrice L de k = 3
+0.0		1.0		-2.0		0.0		
+Infinity	0.0		-3.0		-1.0		
+Infinity	Infinity	0.0		2.0		
+Infinity	Infinity	Infinity	0.0		
+
+Matrice P de k = 3
+0.0		0.0		1.0		2.0		
+Infinity	1.0		1.0		2.0		
+Infinity	Infinity	2.0		2.0		
+Infinity	Infinity	Infinity	3.0		
+
+Il n'y a pas de circuit absorbant
+Sommet de départ : 
+0
+Sommet d'arrivee : 
+2
+Le chemin est : ( 0.0 1.0 2.0 )
+Appuyez sur n pour arrêter ou n'importe quel autre touche pour continuer
+n
+Appuyez sur n pour arrêter ou n'importe quel autre touche pour continuer
+n
+
+Process finished with exit code 0
